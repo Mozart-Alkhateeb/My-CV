@@ -7,22 +7,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="vendor/bootstrap-4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/styles.css">
 
     <title>Resume - My Resume</title>
 </head>
 
 <body>
-
-    <nav class="navbar navbar-expand-md navbar-light bg-transparent shadow fixed-top">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark shadow fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">My CV</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
-                aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" data-target="#navbar" data-toggle="collapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
             <div class="collapse navbar-collapse" id="navbar">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
@@ -30,9 +30,6 @@
                     </li>
                     <li class="nav-item">
                         <a href="#education" class="nav-link">Education</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#experience" class="nav-link">Experience</a>
                     </li>
                     <li class="nav-item">
                         <a href="#skills" class="nav-link">Skills</a>
@@ -46,34 +43,294 @@
     </nav>
 
     <header>
-        <div class="header-image" data-parallax="true">
-            <section class="container h-100">
-                <div class="row h-50 align-items-center">
+        <div class="page-header-image">
+            <div class="container d-flex h-100 justify-content-center">
+                <div class="row justify-content-center align-self-center">
                     <div class="col-12 text-center">
-                        <h1 class="font-weight-light">Vertically Centered Masthead Content</h1>
-                        <p class="lead">A great starter layout for a landing page</p>
+                        <img src="./assets//images//profile.png" alt="Profile Pic" class="profile-pic" />
+                        <h2 class="font-weight-bolder pt-2 text-white">
+                            My Name
+                        </h2>
+                        <h6>
+                            <span class="badge badge-secondary badge-pill">Web Developer</span>
+                            <span class="badge badge-secondary badge-pill">Mobile Developer</span>
+                            <span class="badge badge-secondary badge-pill">App Developer</span>
+                            <span class="badge badge-secondary badge-pill">Full Stack</span>
+                        </h6>
                     </div>
                 </div>
-                <div class="row h-50 align-items-center button-container">
-                    <a class="btn btn-default btn-round btn-lg btn-icon" href="#" rel="tooltip"
-                        title="Follow me on Facebook"><i class="fa fa-facebook"></i></a>
-                    <a class="btn btn-default btn-round btn-lg btn-icon" href="#" rel="tooltip"
-                        title="Follow me on Twitter"><i class="fa fa-twitter"></i></a>
-                    <a class="btn btn-default btn-round btn-lg btn-icon" href="#" rel="tooltip"
-                        title="Follow me on Google+"><i class="fa fa-google-plus"></i></a>
-                    <a class="btn btn-default btn-round btn-lg btn-icon" href="#" rel="tooltip"
-                        title="Follow me on Instagram"><i class="fa fa-instagram"></i></a>
-                </div>
-            </section>
+            </div>
         </div>
     </header>
 
+    <section id="me">
+        <div class="container pt-5">
+            <div class="card">
+                <div class="shadow-lg">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12">
+                            <div class="card-body">
+                                <h3 class="mb-3">About</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut
+                                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                    ullamco
+                                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit
+                                    in
+                                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                                    cupidatat
+                                    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <div class="card-body">
+                                <h3 class="mb-3">Basic Info</h3>
+                                <div class="row">
+                                    <div class="col-sm-4 font-weight-bold">
+                                        AGE:
+                                    </div>
+                                    <div class="col-sm-8">
+                                        35
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-sm-4 font-weight-bold">
+                                        EMAIL:
+                                    </div>
+                                    <div class="col-sm-8">
+                                        email@domain.com
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-sm-4 font-weight-bold">
+                                        ADDRESS:
+                                    </div>
+                                    <div class="col-sm-8">
+                                        Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-sm-4 font-weight-bold">
+                                        LANGUAGES:
+                                    </div>
+                                    <div class="col-sm-8">
+                                        English, Arabic, Chinese
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <section id="education">
+        <h4 class="text-center pt-5 mb-5">Education</h4>
+        <div class="container">
+            <div class="card">
+                <div class="shadow-lg">
+                    <div class="row">
+                        <div class="col-md-3 text-white">
+                            <div
+                                class="card-body h-100 w-100 bg-info text-center d-flex flex-column justify-content-center">
+                                <h5>Mater's Degree</h5>
+                                <p>2016 - 2018</p>
+                            </div>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="card-body">
+                                <h5>Mater of Computer Science</h5>
+                                <h6 class="text-black-50">Modern University For Business and Science</h6>
+                                <p class="mt-3">On the other hand, we denounce with righteous indignation and
+                                    dislike men who are so
+                                    beguiled and demoralized by the charms of pleasure of the moment, so blinded by
+                                    desire, that they cannot foresee the pain and trouble that are bound to ensue; and
+                                    equal blame belongs to those who fail in their duty through weakness of will.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mt-5">
+                <div class="shadow-lg">
+                    <div class="row">
+                        <div class="col-md-3 text-white">
+                            <div
+                                class="card-body h-100 w-100 bg-info text-center d-flex flex-column justify-content-center">
+                                <h5>Bachelor's Degree</h5>
+                                <p>2011 - 2014</p>
+                            </div>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="card-body">
+                                <h5>Bachelor of Computer Science</h5>
+                                <h6 class="text-black-50">Modern University For Business and Science</h6>
+                                <p class="mt-3">In a free hour, when our power of choice is untrammelled and when
+                                    nothing prevents our being able to do what we like best, every pleasure is to be
+                                    welcomed and every pain avoided. But in certain circumstances and owing to the
+                                    claims of duty or the obligations of business it will frequently occur that
+                                    pleasures have to be repudiated and annoyances accepted. The wise man therefore
+                                    always holds in these matters to this principle of selection: he rejects pleasures
+                                    to secure other greater pleasures, or else he endures pains to avoid worse pains.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h4 class="text-center pt-5 mb-5">My Skills</h4>
+        <div class="container">
+            <div class="shadow-lg">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h5><span class="badge badge-success">HTML</span></h5>
+                                <div class="progress mb-4">
+                                    <div class="progress-bar progress-bar-animated progress-bar-striped bg-success"
+                                        style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <h5><span class="badge badge-secondary">C#</span></h5>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-animated progress-bar-striped bg-info"
+                                        style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h5><span class="badge badge-danger">CSS</span></h5>
+                                <div class="progress mb-4">
+                                    <div class="progress-bar progress-bar-animated progress-bar-striped bg-danger"
+                                        style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <h5><span class="badge badge-primary">SQL Server</span></h5>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-animated progress-bar-striped bg-primary"
+                                        style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h5><span class="badge badge-warning">JavaScript</span></h5>
+                                <div class="progress mb-4">
+                                    <div class="progress-bar progress-bar-animated progress-bar-striped bg-warning"
+                                        style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">65%
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <h5><span class="badge badge-dark">Android</span></h5>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-animated progress-bar-striped bg-dark"
+                                        style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="mt-5">
+        <div class="container h-100 d-flex flex-column justify-content-center">
+            <div class="row">
+                <div class="col-md-12 d-flex flex-row justify-content-center">
+                    <button class="btn btn-lg btn-success font-weight-bolder" data-toggle="modal"
+                        data-target="#contact-me">
+                        Contact Me
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="contact-me" role="dialog">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Contact Me</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <form>
+                    <div class="modal-body">
+                        <div class="form-row">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="john" required>
+                        </div>
+                        <div class="form-row">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="email@domain.com" required>
+                        </div>
+                        <div class="form-row">
+                            <label for="subject">Subject</label>
+                            <textarea class="form-control" id="subject" placeholder="I'm Looking for ...."
+                                required></textarea>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer id="footer" class="pt-5">
+        <div class="text-center">
+            <a class="btn btn-link icon-facebook text-black-50" href="#footer">
+                <i class="fa fa-facebook fa-2x"></i>
+            </a>
+            <a class="btn btn-link icon-twitter text-black-50" href="#footer">
+                <i class="fa fa-twitter fa-2x"></i>
+            </a>
+            <a class="btn btn-link icon-google-plus text-black-50" href="#footer">
+                <i class="fa fa-google-plus fa-2x"></i>
+            </a>
+            <a class="btn btn-link icon-instagram text-black-50" href="#footer">
+                <i class="fa fa-instagram fa-2x"></i>
+            </a>
+            <h6 class="mt-4 text-black-50 font-weight-bold">Mozart Al Khateeb</h6>
+        </div>
+    </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="vendor/jquery-3.3.1.slim.min.js"></script>
-    <script src="vendor/popper.min.js"></script>
-    <script src="vendor/bootstrap-4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
