@@ -1,0 +1,42 @@
+.page-header-image{
+    background-image: url("../images//header-banner.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+.profile-pic{
+    border: 2px solid rgba(96, 100, 96, 0.6);
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;    
+}
+
+#contact{
+    background-image: url("../images//map.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+.icon-facebook:hover i {
+    color: #3b5998;
+  }
+  
+  .icon-twitter:hover i {
+    color: #1da1f2;
+  }
+  
+  .icon-google-plus:hover i {
+    color: #dd4b39;
+  }
+  
+  .icon-instagram:hover i {
+    color: #405de6;
+  }
+
+@media screen and (max-width:768px){
+    #skills .row .progress{
+        margin-bottom: 1.5rem!important;
+    }
+}

@@ -1,2 +1,2 @@
 # My-CV
-Simple single page CV using bootstrap 4
+Simple Single page CV using HTML 5 and Bootstrap 4

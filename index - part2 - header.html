@@ -14,15 +14,12 @@
 </head>
 
 <body>
-
-    <nav class="navbar navbar-expand-md navbar-light bg-transparent shadow fixed-top">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark shadow fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">My CV</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
-                aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" data-target="#navbar" data-toggle="collapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
             <div class="collapse navbar-collapse" id="navbar">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
@@ -30,9 +27,6 @@
                     </li>
                     <li class="nav-item">
                         <a href="#education" class="nav-link">Education</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#experience" class="nav-link">Experience</a>
                     </li>
                     <li class="nav-item">
                         <a href="#skills" class="nav-link">Skills</a>
@@ -44,31 +38,26 @@
             </div>
         </div>
     </nav>
-
     <header>
-        <div class="header-image" data-parallax="true">
-            <section class="container h-100">
-                <div class="row h-50 align-items-center">
+        <div class="page-header-image">
+            <div class="container d-flex h-100 justify-content-center">
+                <div class="row justify-content-center align-self-center">
                     <div class="col-12 text-center">
-                        <h1 class="font-weight-light">Vertically Centered Masthead Content</h1>
-                        <p class="lead">A great starter layout for a landing page</p>
+                        <img src="./assets//images//profile.png" alt="Profile Pic" class="profile-pic" />
+                        <h2 class="font-weight-bolder pt-2 text-white">
+                            My Name
+                        </h2>
+                        <h6>
+                            <span class="badge badge-secondary badge-pill">Web Developer</span>
+                            <span class="badge badge-secondary badge-pill">Mobile Developer</span>
+                            <span class="badge badge-secondary badge-pill">App Developer</span>
+                            <span class="badge badge-secondary badge-pill">Full Stack</span>
+                        </h6>
                     </div>
                 </div>
-                <div class="row h-50 align-items-center button-container">
-                    <a class="btn btn-default btn-round btn-lg btn-icon" href="#" rel="tooltip"
-                        title="Follow me on Facebook"><i class="fa fa-facebook"></i></a>
-                    <a class="btn btn-default btn-round btn-lg btn-icon" href="#" rel="tooltip"
-                        title="Follow me on Twitter"><i class="fa fa-twitter"></i></a>
-                    <a class="btn btn-default btn-round btn-lg btn-icon" href="#" rel="tooltip"
-                        title="Follow me on Google+"><i class="fa fa-google-plus"></i></a>
-                    <a class="btn btn-default btn-round btn-lg btn-icon" href="#" rel="tooltip"
-                        title="Follow me on Instagram"><i class="fa fa-instagram"></i></a>
-                </div>
-            </section>
+            </div>
         </div>
     </header>
-
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="vendor/jquery-3.3.1.slim.min.js"></script>
