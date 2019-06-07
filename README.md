@@ -5,4 +5,6 @@ Simple Single page CV using HTML 5 and Bootstrap 4
 
 [Download Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/download/)
 
+[Demo](https://mozart-alkhateeb.github.io/My-CV/)
+
 https://mozartec.com/intro-to-bootstrap-4-single-page-resume/
